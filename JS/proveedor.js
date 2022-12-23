@@ -61,7 +61,7 @@ function guardar() {
         // Asigna el valor del campo "email" del documento a la variable sEmail
         let sEmail = doc.get("email");
         var sStock = prompt("¿Cuantos productos deseas pedir?");
-        var sDias = prompt("¿Cuantos productos deseas pedir?");
+        var sDias = prompt("¿En cuantos dias te gustaria recibirlo?");
         
         // Ahora puedes usar la variable sEmail para cualquier cosa que necesites
         // Por ejemplo, abrir el cliente de correo con un nuevo mensaje prellenado con el destinatario y el cuerpo del mensaje especificados
