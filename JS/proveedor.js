@@ -68,7 +68,7 @@ function guardar() {
         // Por ejemplo, abrir el cliente de correo con un nuevo mensaje prellenado con el destinatario y el cuerpo del mensaje especificados
         var sLink = "mailto:" + encodeURIComponent(sEmail)
          + "?subject=" + encodeURIComponent("Abastecimiento de productos")
-         + "&body=" + encodeURIComponent("Saludos desde Panaderia Mi Flor necesito "+ sStock +"de"+sProducto+" , me gustaria recibirlo en por lo menos " +sDias+" dias");
+         + "&body=" + encodeURIComponent("Saludos desde Panaderia Mi Flor necesito "+ sStock +"  "+sProducto+" , me gustaria recibirlo en por lo menos " +sDias+" dias");
         window.location.href = sLink;
       });
   }
