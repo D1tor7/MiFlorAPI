@@ -69,7 +69,7 @@ function guardar() {
         // Por ejemplo, abrir el cliente de correo con un nuevo mensaje prellenado con el destinatario y el cuerpo del mensaje especificados
         var sLink = "mailto:" + encodeURIComponent(sEmail)
          + "?subject=" + encodeURIComponent("Abastecimiento de productos")
-         + "&body=" + encodeURIComponent("Tenga un buen dia estimado "+ sNombre +" Saludamos desde la Panaderia Mi Flor para solicitarle " + sStock +"  unidades de  "+sProducto+" , me gustaria recibirlo en por lo menos " +sDias+"  dias habiles. Esperamos su respuesta inmediata");
+         + "&body=" + encodeURIComponent("Tenga un buen dia estimado "+ sNombre +" Saludamos desde la Panaderia Mi Flor para solicitarle " + sStock +"  unidades de  "+sProducto+" , me gustaria recibirlo en por lo menos " +sDias+"  dias habiles. Esperamos su respuesta.");
         window.location.href = sLink;
       });
   }
