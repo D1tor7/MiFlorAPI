@@ -4,7 +4,7 @@ function guardar() {
     var email= document.getElementById('email').value;
     var Telefono = document.getElementById('Telefono').value;
   
-    db.collection("proveedores").add({
+    db.collection("proveedor").add({
         supplierName: supplierName,
         name: name,
         email: email,
