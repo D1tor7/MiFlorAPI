@@ -1,0 +1,116 @@
+table .btneditar{
+    color:aquamarine;
+    cursor: pointer;
+
+}
+
+table .btneliminar{
+    color:brown;
+    cursor: pointer;
+
+}
+body {
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+}
+.v13_20 {
+    width: 178px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 283px;
+    left: 82px;
+    font-family: Reem Kufi;
+    font-weight: SemiBold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+
+.v13_21 {
+    width: 253px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 357px;
+    left: 49px;
+    font-family: Reem Kufi;
+    font-weight: SemiBold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: justified;
+  }
+  
+.v8_12 {
+    width: 351px;
+    height: 515px;
+    background: rgba(32,29,29,1);
+    opacity: 1;
+    position: absolute;
+    top: 233px;
+    left: 0px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+  }
+
+.containers{
+   
+    top: 150px;
+    left: 406px;
+    font-family: Jost;
+    font-weight: Regular;
+    font-size: 20px;
+    
+}
+.table-responsive{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 420px;
+    top: 10px;
+    left: 8px;
+    font-family: Jost;
+    font-weight: Regular;
+    font-size: 23px;
+    opacity: 1;
+    
+       
+}
+
+.v20_126 {
+    width: 221px;
+    height: 81px;
+    background: url("src/logo_miflor_v2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 106px;
+    left: 14px;
+    overflow: hidden;
+  }
+
+  .btn-outline-success {
+    width: 170px;
+    height: 44px;
+    background: rgba(42,177,177,1);
+    opacity: 1;
+    position: absolute;
+    top: 626px;
+    left: 90px;
+    overflow: hidden;
+  }
+
+  .v20_111 {
+    width: 90px;
+    color: rgb(32, 45, 180);
+    position: absolute;
+    top: 120px;
+    left: 406px;
+    font-family: Jost;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+  }
