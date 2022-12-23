@@ -60,15 +60,16 @@ function guardar() {
     db.collection("proveedor").doc(id).get().then((doc) => {
         // Asigna el valor del campo "email" del documento a la variable sEmail
         let sEmail = doc.get("email");
+        let sNombre = doc.get("name");
         var sStock = prompt("¿Cuantos productos deseas pedir?");
-        var sProducto = prompt("¿Qur producto deseas recibir?");
+        var sProducto = prompt("¿Que producto deseas recibir?");
         var sDias = prompt("¿En cuantos dias te gustaria recibirlo?");
         
         // Ahora puedes usar la variable sEmail para cualquier cosa que necesites
         // Por ejemplo, abrir el cliente de correo con un nuevo mensaje prellenado con el destinatario y el cuerpo del mensaje especificados
         var sLink = "mailto:" + encodeURIComponent(sEmail)
          + "?subject=" + encodeURIComponent("Abastecimiento de productos")
-         + "&body=" + encodeURIComponent("Saludos desde Panaderia Mi Flor necesito "+ sStock +"  "+sProducto+" , me gustaria recibirlo en por lo menos " +sDias+" dias");
+         + "&body=" + encodeURIComponent("Tenga un buen dia estimado "+ sNombre +" Saludamos desde la Panaderia Mi Flor para solicitarle " + sStock +"  unidades de  "+sProducto+" , me gustaria recibirlo en por lo menos " +sDias+"  dias habiles. Esperamos su respuesta.");
         window.location.href = sLink;
       });
   }
