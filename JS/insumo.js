@@ -22,12 +22,12 @@ db.collection("productos").onSnapshot((querySnapshot) => {
           <td>${doc.data().name}</td>
           <td>${doc.data().price}</td>
           <td>${doc.data().stock}</td>
-          <td>${doc.data().supplier}</td>
+         
 
         
         </tr>
       `
   });
 });
-i
+
 
